@@ -1,0 +1,41 @@
+# Ignore object files in code
+*.o
+
+# Ignore MATLAB data by default
+*.mat
+
+# Ignore pdf-files : 
+*.pdf
+# Override the above in directories for references and figures
+# Ignore one pdf-file inside reference folder
+# Also ignore ps and dvi : should not be included from LaTeX
+# if some ps-figures are needed, this can be adjusted here.
+*.ps
+*.dvi
+
+# Ignore byproducts from compiling LaTeX source code
+*.log 
+*.aux
+*.out
+*.bbl
+*.blg
+*.nav
+*.toc
+*.snm
+*.fls
+*.fdb*
+
+# Ignore Rich Text Format files (used for Grammarly on reports)
+
+
+# Ignore Mac crap
+*.DS_store
+*_region_.tex
+*.synctex.gz
+
+# Ignore the Wiki, which for some reason is created as its own repository
+wiki
+
+# Ignore a whole directory, suitable for temporary files for the local user
+data/*
+
