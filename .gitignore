@@ -3,6 +3,7 @@
 
 # Ignore MATLAB data by default
 *.mat
+._*.m
 
 # Ignore pdf-files : 
 *.pdf
